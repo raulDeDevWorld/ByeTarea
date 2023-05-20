@@ -7,7 +7,7 @@ export default function Button (props) {
                 className={`${style.button} ${style[props.style]}`}
                 onClick={props.click}>
                 {props.children}
-            </button>
+            </button> 
 
     )
 }
