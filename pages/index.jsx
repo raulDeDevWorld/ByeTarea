@@ -247,8 +247,8 @@ setUserSuccess('RequireCodeActivation')
 
   <div class="relative mx-auto border-gray-800 dark:border-gray-800 bg-gray-800 border-[8px] rounded-t-xl h-[172px] max-w-[301px] md:h-[294px] md:max-w-[512px]">
     <div class="rounded-lg overflow-hidden h-[156px] md:h-[278px] bg-white dark:bg-gray-800">
-      <img src="./computer.jpg" class="dark:hidden h-[156px] md:h-[278px] w-full rounded-xl" alt="">
-      <img src="https://flowbite.s3.amazonaws.com/docs/device-mockups/laptop-screen-dark.png" class="hidden dark:block h-[156px] md:h-[278px] w-full rounded-lg" alt="">
+      <img src="./computer.jpg" class="dark:hidden h-[156px] md:h-[278px] w-full rounded-xl" alt="" />
+      <img src="https://flowbite.s3.amazonaws.com/docs/device-mockups/laptop-screen-dark.png" class="hidden dark:block h-[156px] md:h-[278px] w-full rounded-lg" alt="" />
     </div>
   </div>
   <div class="relative mx-auto bg-gray-900 dark:bg-gray-700 rounded-b-xl rounded-t-sm h-[17px] max-w-[351px] md:h-[21px] md:max-w-[597px]">
@@ -367,7 +367,7 @@ setUserSuccess('RequireCodeActivation')
     <li class="py-3 sm:py-4">
       <div class="flex items-center space-x-3">
         <div class="flex-shrink-0">
-          <img class="w-8 h-8 rounded-full" src="/docs/images/people/profile-picture-5.jpg" alt="Neil image">
+          <img class="w-8 h-8 rounded-full" src="/docs/images/people/profile-picture-5.jpg" alt="Neil image" />
         </div>
         <div class="flex-1 min-w-0">
           <p class="text-sm font-semibold text-gray-900 truncate dark:text-white">
@@ -386,7 +386,7 @@ setUserSuccess('RequireCodeActivation')
     <li class="py-3 sm:py-4">
       <div class="flex items-center space-x-3">
         <div class="flex-shrink-0">
-          <img class="w-8 h-8 rounded-full" src="/docs/images/people/profile-picture-4.jpg" alt="Neil image">
+          <img class="w-8 h-8 rounded-full" src="/docs/images/people/profile-picture-4.jpg" alt="Neil image" />
         </div>
         <div class="flex-1 min-w-0">
           <p class="text-sm font-semibold text-gray-900 truncate dark:text-white">
