@@ -29,90 +29,18 @@ export default function Home() {
   const { user, userDB, setUserProfile, setAlbunImage, qr, setQr, setDataUrl, setUserSuccess, success, setUserData, pageOne, pageTwo, pageThree, handlerPageView, numeration, image, dataUrl } = useUser()
   const router = useRouter()
 
-  const [mode, setMode] = useState(false)
-
-  const [arr, setArr] = useState([1, 2, 3])
-  const [pluss, setPluss] = useState(false)
-
-
-  const [opacity, setOpacity] = useState(false);
-
-
-
-  function nextClick(e) {
-    e.preventDefault()
-    if (!navigator.onLine) {
-      setUserSuccess('NoInternet')
-      return
-    }
-    const code = e.target.form[0].value
-    console.log(code)
-    getCode(code, user.uid, setUserSuccess)
-  }
-
-  function backClick(e) {
-    e.preventDefault()
-    router.p()
-  }
-
-  function arrItemsHandler() {
-    if (arr.length > 2) {
-      return
-    }
-    const copyListItems = [...arr]
-    const arrPop = copyListItems.pop()
-    setArr([...arr, arrPop == undefined ? 1 : arrPop + 1])
-  }
-  function handlerQR() {
-    setQr(true)
-  }
-  function plussButton(key) {
-    setPluss(!pluss)
-  }
-
-  function remove(id) {
-    const newArr = arr.filter(i => i !== id)
-    console.log(newArr)
-    setArr(newArr)
-  }
-
-  function remove(data) {
-    handlerPageView(data)
-  }
-  function removeQR() {
-    setQr(!qr)
-  }
-
+  
 
   
-  function handlerPDF() {
+  
 
-
-setUserSuccess('RequireCodeActivation')
-
-  }
-  function x() {
-    setMode(!mode)
-  }
-
-
-
-  const handlerQRUrl = (e) => {
-    const qr = e.target.value
-    setQr(qr)
-
-  };
-
+  
+  
+  
   
 
 
 
-  useEffect(() => {
-
-    Object.keys(image).length == 0  && getImageData(user.uid, setAlbunImage)
-
-    document.getElementById('qr') && setDataUrl(document.getElementById('qr').toDataURL())
-  }, [user, qr]);
 
 
 
